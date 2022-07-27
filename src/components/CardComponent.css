@@ -1,0 +1,33 @@
+#PaymentForm{
+    scroll-behavior: smooth;
+}
+
+#btncheckout{
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    border-radius: 20px;
+    border-width: 1px;
+    z-index: 20;
+    elevation:higher;
+    background-image: linear-gradient(to right, rgba(0,0,255,0), rgba(0,0,255,0.5));
+    
+    border-color: darkcyan;
+}
+
+.input_fields{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    border-width: 2px;
+    border-color: darkcyan;
+}
+
+.form{
+    flex-direction: column;
+    orientation: initial;
+    text-orientation: upright;
+}
